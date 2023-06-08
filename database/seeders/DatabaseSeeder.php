@@ -16,16 +16,14 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name' => 'ELECTRONIC'
+            'name' => 'construction'
         ]);
         Category::create([
-            'name' => 'FURNITURE'
+            'name' => 'agriculture'
         ]);
         Category::create([
-            'name' => 'clothes'
+            'name' => 'fashion'
         ]);
-        Category::create([
-            'name' => 'electricity'
-        ]);
+        
     }
 }
